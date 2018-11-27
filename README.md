@@ -16,6 +16,8 @@ This project is a Hyrax 1.0.5 application that uses the Samvera Labs geo_works g
    `cd .`
 1. Clone this repo
    `git clone git@github.com:curationexperts/iris.git`
+   For UCSB Library repo version 
+   `git clone https://github.com/ucsblibrary/iris.git`
 1. Change to the application directory
    `cd iris`
 1. `bundle install` under project's current ruby (2.4.4)
