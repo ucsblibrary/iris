@@ -8,8 +8,6 @@ Bundler.require(*Rails.groups)
 
 module Iris
   class Application < Rails::Application
-    config.active_job.queue_adapter     = :sidekiq
-
     # The compile method (default in tinymce-rails 4.5.2) doesn't work when also
     # using tinymce-rails-imageupload, so revert to the :copy method
     # https://github.com/spohlenz/tinymce-rails/issues/183
