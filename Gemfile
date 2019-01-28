@@ -41,7 +41,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-doc'
   gem 'rspec-rails'
-  gem 'solr_wrapper', '>= 0.3'
+  gem 'solr_wrapper', '> 1.2.0'
 end
 
 group :test do
